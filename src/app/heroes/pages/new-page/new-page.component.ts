@@ -124,6 +124,8 @@ export class NewPageComponent implements OnInit{
     });
 
 
+    // Optimización del código situado debajo
+    // dialoRef.afterClosed nos devuelve True o false segun el boton pulsado
     dialogRef.afterClosed()
       .pipe(
         // filter( result => result === true),
